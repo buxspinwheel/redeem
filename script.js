@@ -12,8 +12,9 @@ function myfunction(){
 	element.classList.remove('animate');
 	setTimeout(function(){
 		element.classList.add('animate');
-    document.getElementById('spinBtn').disabled = true;
+     document.getElementById('spinBtn').disabled = true;
     document.getElementById('rdmBtn').style.display = "block";
+	document.getElementById('popup').style.display = 'block';
     
 	}, 5000); //5000 = 5 second
 }
