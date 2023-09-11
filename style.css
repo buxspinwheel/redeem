@@ -210,3 +210,7 @@ center {
             border: none;
             cursor: pointer;
         }
+
+		#rdmBtn {
+	margin-bottom: 5px;
+}
